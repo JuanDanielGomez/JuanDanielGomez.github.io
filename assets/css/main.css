@@ -4399,7 +4399,7 @@ input, select, textarea {
 		}
 
 	#copyright {
-		color: #ffffff;
+		color: grey;
 		position: relative;
 		color: rgba(255, 255, 255, 0.25);
 		cursor: default;
@@ -4409,7 +4409,6 @@ input, select, textarea {
 		letter-spacing: 0.075em;
 		line-height: 1.5;
 		text-align: center;
-		text-transform: uppercase;
 		margin: 4rem auto 8rem auto;
 		width: calc(100% - 4rem);
 		max-width: 72rem;
@@ -4417,11 +4416,11 @@ input, select, textarea {
 	}
 
 		#copyright input, #copyright select, #copyright textarea {
-			color: #ffffff;
+			color:grey;
 		}
 
 		#copyright a {
-			color: #ffffff;
+			color:grey;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
@@ -4431,24 +4430,24 @@ input, select, textarea {
 			}
 
 		#copyright strong, #copyright b {
-			color: #ffffff;
+			color: grey;
 		}
 
 		#copyright h1, #copyright h2, #copyright h3, #copyright h4, #copyright h5, #copyright h6 {
-			color: #ffffff;
+			color: grey;
 		}
 
 		#copyright blockquote {
-			border-left-color: #ffffff;
+			border-left-color: grey;
 		}
 
 		#copyright code {
 			background: rgba(255, 255, 255, 0.075);
-			border-color: #ffffff;
+			border-color: grey;
 		}
 
 		#copyright hr {
-			border-bottom-color: #ffffff;
+			border-bottom-color: grey;
 		}
 
 		#copyright a {
