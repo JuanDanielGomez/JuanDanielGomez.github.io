@@ -36,9 +36,11 @@
 					<nav id="nav">
 						<ul class="links">
 							<li class="active"><a href="index.html">Home</a></li>
+							<li><a href="images/CV.pdf" target="blank"> CV </a></li>
 						</ul>
 						<ul class="icons">
 							<li><a href="https://github.com/JuanDanielGomez" target="blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							<li> <a href="https://linkedin.com/in/juan-gomez-campo" target = "blank" class = "icon brands fa-linkedin-in"><span class="label">LinkedIn</span> </a></li>
 						</ul>
 					</nav>
 
@@ -66,16 +68,14 @@
 							<section class="posts">
 								<article>
 									<header>
-										<h2>Face detection with OpenCv</h2>
+										<h2>Face detection with OpenCv, Keras and Tensorflow</h2>
 									</header>
-									<div class="iframe-container">
-										<video src="images/ball.mp4" width="300" height="200" autoplay loop muted ></video>
-									</div>	
-									<p>Computer Vision project developped in Python, the goal was to have an unbeatable goalkeeper by detecting, tracking and predicting the trajectory of the ball and then getting to it in time to make a perfect safe! Sadly due to real-world situations (pandemic) we had to finish the project as a simulation. For more information check the full paper with all the technical details!</p>
-									<a href="images/GoalInvincible.pdf" target="blank"> Download the paper now! </a>
-									<ul class="actions special">
-										<li><a href="https://github.com/JuanDanielGomez/Goal-Invincible" target="blank" class="button">Go to repository</a></li>
-									</ul>
+									<a href="#" class="image fit"><img src="images/faceDetection.png" alt="" /></a>
+									<p>The goal of this project was to use computer vision techniques and machine learning models to detect faces in videos. In order to accomplish the task two main methods were use: Adaptive Background Subtraction and Skin Color Detector with OpenCv. These methods provide a region of interest to reduce the area of the image in which multiple CNN models trained with the FDDB and WIDER dataset for faces are used in conjuction with a Sliding Window technique to detect faces in a frame to frame basis. The results are evaluated on the AVDIAR data set of videos with metrics such as precision, recall, F1 score and performance (FPS).</p>
+									<a href="images/Report.pdf" target="blank"> Download the report / project overview now! </a>
+									<div id="copyright">
+										<h6>*Project done for educational purposes as the final project of the Computer Vision subject in my master's degree. The project overview is intended for educational purposes only and the rigths belong to the team of students and university. Discresion of used is adviced.</h6>
+									</div>
 								</article>
 								<article>
 									<header>
